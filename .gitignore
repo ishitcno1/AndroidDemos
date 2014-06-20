@@ -1,0 +1,10 @@
+.idea/
+AndroidDemos.iml
+/build.gradle
+build/
+.gradle
+/local.properties
+.DS_Store
+
+# common
+*.swp
