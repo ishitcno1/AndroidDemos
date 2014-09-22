@@ -1,10 +1,10 @@
-.idea/
-AndroidDemos.iml
-/build.gradle
-build/
-.gradle
-/local.properties
+# general
+*~
+*.swp
 .DS_Store
 
-# common
-*.swp
+# android
+.idea
+*.iml
+build
+local.properties
