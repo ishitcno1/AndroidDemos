@@ -3,6 +3,7 @@
     package="com.edinstudio.app.demos">
 
     <application
+        android:name=".DemoApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -40,6 +41,18 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".database.activeandroid.ActiveAndroidDemoActivity"
+            android:label="Database/ActiveAndroid/ActiveAndroidDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <!-- ActiveAndroid meta-data -->
+        <meta-data android:name="AA_DB_NAME" android:value="ActiveAndroidDemo.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="1" />
     </application>
 
 </manifest>

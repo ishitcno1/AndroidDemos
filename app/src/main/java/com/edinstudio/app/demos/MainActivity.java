@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -45,7 +44,6 @@ public class MainActivity extends ListActivity {
 
         PackageManager pm = getPackageManager();
         List<ResolveInfo> infos = pm.queryIntentActivities(mainIntent, 0);
-        Log.d("loge", "infos length: " + infos.size());
         String[] splitPath = path.split("/");
         String nextLabel = "";
 
@@ -107,7 +105,6 @@ public class MainActivity extends ListActivity {
             };
 
     private void addItem(List<Map<String, Object>> data, String title, Intent intent) {
-        Log.d("loge", "addItem title: " + title);
         Map<String, Object> tmp = new HashMap<String, Object>();
         tmp.put("title", title);
         tmp.put("intent", intent);
