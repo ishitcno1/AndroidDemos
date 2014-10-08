@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_get_posts"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Get Posts"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_get_post"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Get a Post"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_add_post"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Add a Post"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_update_post"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Update a Post"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_modify_post"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Modify a Post"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_del_post"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Delete a Post"
+        android:layout_height="wrap_content" />
+
+
+    <ListView
+        android:id="@+id/lv_posts"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
