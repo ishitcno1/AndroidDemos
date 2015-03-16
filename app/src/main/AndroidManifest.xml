@@ -8,6 +8,16 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+
+        <!-- ActiveAndroid meta-data -->
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="ActiveAndroidDemo.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+
+        <!-- common -->
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -17,6 +27,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- animation -->
         <activity
             android:name=".animation.BouncingBallsActivity"
             android:label="Animation/BouncingBalls">
@@ -25,6 +37,7 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".animation.DrawableAnimActivity"
             android:label="Animation/DrawableAnimation">
@@ -33,6 +46,7 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".animation.ViewAnimActivity"
             android:label="Animation/ViewAnimation">
@@ -41,6 +55,8 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+
+        <!-- database -->
         <activity
             android:name=".database.activeandroid.ActiveAndroidDemoActivity"
             android:label="Database/ActiveAndroid/ActiveAndroidDemo">
@@ -49,6 +65,8 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+
+        <!-- network -->
         <activity
             android:name=".network.retrofit.RetrofitDemoActivity"
             android:label="Network/RetrofitDemo">
@@ -58,13 +76,16 @@
             </intent-filter>
         </activity>
 
-        <!-- ActiveAndroid meta-data -->
-        <meta-data
-            android:name="AA_DB_NAME"
-            android:value="ActiveAndroidDemo.db" />
-        <meta-data
-            android:name="AA_DB_VERSION"
-            android:value="1" />
+        <!-- thread -->
+        <activity
+            android:name=".thread.ThreadActivity"
+            android:label="Thread/ThreadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
