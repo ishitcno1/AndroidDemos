@@ -86,6 +86,16 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".thread.AsyncTaskActivity"
+            android:label="Thread/AsyncTaskActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

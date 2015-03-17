@@ -28,4 +28,5 @@ This is basically a clone of Android api demos. It also contains some demos I wr
 <span id="thread"></span>
 
 - Thread/Thread
+- Thread/AsyncTask
 
